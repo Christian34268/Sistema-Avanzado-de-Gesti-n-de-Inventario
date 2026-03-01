@@ -8,3 +8,13 @@
 1008|Producto8|846|456.0
 1009|Producto9|841|30.0
 1010|Producto10|55|100.0
+1011|Teclado Mecánico|25|89.99
+1012|Mouse Inalámbrico|40|34.99
+1013|Monitor LED 24"|15|299.99
+1014|Disco Duro 1TB|30|75.50
+1015|Memoria RAM 8GB|50|45.00
+1016|Tarjeta Gráfica GTX|10|389.99
+1017|Auriculares USB|35|29.99
+1018|Webcam HD 1080p|20|59.99
+1019|Hub USB 4 Puertos|60|19.99
+1020|Cable HDMI 2m|80|12.50
