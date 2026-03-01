@@ -2,13 +2,16 @@ from servicios.inventario_servicio import InventarioServicio
 
 def mostrar_menu():
     print("""
+====================================
 📦 SISTEMA DE GESTIÓN DE INVENTARIO
-1. Añadir producto
-2. Listar inventario
-3. Buscar producto por nombre
-4. Actualizar producto
-5. Eliminar producto
-0. Salir
+====================================
+1. ➕ Añadir producto
+2. 📋 Listar inventario
+3. 🔍 Buscar producto por nombre
+4. ✏️  Actualizar producto
+5. 🗑️  Eliminar producto
+6. 🔎 Buscar producto por ID
+0. 🚪 Salir
 ====================================
 """)
 
@@ -33,7 +36,7 @@ def main():
                 inventario.listar_productos()
 
             elif opcion == 3:  # Buscar
-                texto = input("Texto a buscar: ")
+                texto = input("Busqueda por nombre:")
                 resultados = inventario.buscar_por_nombre(texto)
                 if resultados:
                     print(f"\n Resultados ({len(resultados)}):")
